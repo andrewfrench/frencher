@@ -19,7 +19,7 @@ for word in dict:
         list.append(word.strip().lower())
 
 # Print length of candidate word list
-print str(len(list)) + " words in dictionary longer three letters or longer."
+print str(len(list)) + " words in dictionary three letters or longer."
 
 # Iterate through each word in candidate word list
 for word in list:
